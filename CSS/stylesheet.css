@@ -3,6 +3,10 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    background-color: rgb(32, 32, 32);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,21 +17,32 @@ html {
 
 /* general classes */
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Italiana', serif;
     text-align: center;
     margin-top: 30px;
     overflow-y: hidden;
+    color: rgb(41, 146, 136);
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 20px;
+    color: white;
 }
 
 a {
     text-decoration: none;
     background-color: transparent;
+    color: black;
+}
+
+.btn {
+    background: rgb(41, 146, 136);
+    width: 80%;
+}
+
+.button {
+    width: 80%;
 }
 
 ul {
@@ -71,16 +86,12 @@ li {
     
 }
 
-.fancynavbar-brand {
-    width: 30%;
-    height: 100px;
-}
 
 .fancynavbar-toggler {
     cursor: pointer;
-    width: 20%;
+    width: 30%;
     opacity: 1;
-    height: 15%;
+    height: 20%;
     margin-top: 10px;
 }
 
@@ -125,34 +136,25 @@ li {
     margin: 10px;
 }
 
-.icons {
-    background: black;
+.fa {
     color: white;
-    border-radius: 50%;
-    padding: 10px;
-    font-size: 1em;
+    font-size: 1.5em;
+    margin: 5px;
 }
 
 .bg {
-    /* The image used */
-  background-image: url("../Assets/Images/KB_Pics/IMG-20200716-WA0019.jpg");
-
-  /* Add the blur effect */
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-
-  /* Full height */
-  /* height: 100%; */
-
-  /* Center and scale the image nicely */
+  background-image: url("../Assets/Images/KB_Pics/PlainKBlogo.jpg");
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-text {
-    /* background-color: rgb(0,0,0); Fallback color */
-    /* background-color: rgba(0,0,0, 0.1); Black w/opacity/see-through */
+    background-color: rgb(0,0,0); /*Fallback color */
+    background-color: rgba(0,0,0, 0.1); /*Black w/opacity/see-through */
     color: white;
     font-weight: bold;
     position: absolute;
@@ -165,16 +167,13 @@ li {
     text-align: center;
 }
 
+.name {
+    font-family: 'Italiana', serif;
+}
 
 /* Footer */
 .footer {
-    background: rgb(27, 27, 27);
+    background: rgb(87, 87, 87);
     width: 100%;
     padding: 10px;
-}
-
-.fa {
-    color: white;
-    font-size: 1.5em;
-    margin: 5px;
 }
